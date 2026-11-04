@@ -1,0 +1,99 @@
+{
+  "title": "Knee MRI notebook audit",
+  "sub": "Static checks for the RSNA submission contract",
+  "issue": "Reproducibility companion · 2026",
+  "sections": [
+    [
+      "Research purpose",
+      "Reject cached example predictions",
+      [
+        "Notebook source",
+        "AST parsing",
+        "Static input check",
+        "Release signal"
+      ],
+      [
+        "Read as JSON",
+        "Inspect literals and calls",
+        "Flag cached submission.csv",
+        "Report each check"
+      ]
+    ],
+    [
+      "What is checked",
+      "Track the inference contract",
+      [
+        "Test inputs",
+        "Sample order",
+        "Study identifier",
+        "CSV writer"
+      ],
+      [
+        "Recognise test.csv",
+        "Recognise sample template",
+        "Look for UID references",
+        "Check writer calls"
+      ]
+    ],
+    [
+      "Reproduce",
+      "Exercise both fixture paths",
+      [
+        "Reject static",
+        "Accept dynamic",
+        "Audit your file"
+      ],
+      [
+        "Cached predictions fixture",
+        "Minimum contract fixture",
+        "Report and SHA-256"
+      ]
+    ],
+    [
+      "Limits and next steps",
+      "Source audit and performance are distinct",
+      [
+        "Static heuristic",
+        "Hidden-run smoke",
+        "Patient groups",
+        "Subgroups"
+      ],
+      [
+        "Dynamic patterns can escape",
+        "Exercise new studies",
+        "Split before tuning",
+        "Inspect rare findings"
+      ]
+    ],
+    [
+      "License and citation",
+      "Reuse and citation",
+      [
+        "Original code",
+        "Clinical data",
+        "Cite the work"
+      ],
+      [
+        "MIT notice applies",
+        "None included",
+        "Use CITATION.cff"
+      ]
+    ],
+    [
+      "Bibliography and research directions",
+      "How the references inform follow-up",
+      [
+        "Primary sources",
+        "Study design",
+        "Evidence to report"
+      ],
+      [
+        "Resolve DOI or arXiv ID",
+        "Predefine comparisons",
+        "Separate hypotheses and results"
+      ]
+    ]
+  ],
+  "header_source": "docs/science-figures/cover-art.jpg",
+  "repository": "rsna-knee-mri-submission-audit"
+}
