@@ -1,0 +1,68 @@
+{
+  "schema": "github-research-provenance/v1",
+  "project": "Knee MRI notebook audit",
+  "author": "Francisco Angulo de Lafuente",
+  "orcid": "https://orcid.org/0009-0001-1634-7063",
+  "recorded_on": "2026-11-06",
+  "canonical_url": "https://github.com/Agnuxo1/rsna-knee-mri-submission-audit",
+  "repository": {
+    "full_name": "Agnuxo1/rsna-knee-mri-submission-audit",
+    "id": 1445319380,
+    "visibility_at_audit": "public",
+    "original_commit": "24f2f7696106cb3ededa29353c8386e0262fe48f",
+    "baseline_commit": "984674770a612f8a95b75b09d0cc2e16583b46e2",
+    "baseline_tree": "12e62a75ce27986fd9df1ac56aac518203375387",
+    "baseline_file_count": 36
+  },
+  "attribution": {
+    "author": "Francisco Angulo de Lafuente",
+    "orcid": "https://orcid.org/0009-0001-1634-7063",
+    "recorded_on": "2026-11-06",
+    "original_project_date": "2026-11-04",
+    "basis": "The repository's two commits identify Francisco Angulo de Lafuente / Agnuxo1; the user confirmed ownership of that account."
+  },
+  "license_scope": {
+    "spdx": "MIT",
+    "document": "LICENSE_SCOPE.md",
+    "intended_for": "Original audit source code and project-authored text documentation, metadata, and specifications listed in LICENSE_SCOPE.md.",
+    "excluded": [
+      "All 23 raster assets, including AI-generated cover art; separate reuse rights are unresolved.",
+      "Competition data, patient files, predictions, third-party notebooks, and model weights; none are present in the recorded baseline.",
+      "External sources and dependencies under their own terms."
+    ],
+    "caveat": "The standard root LICENSE text has no per-file map. This scope note records intended scope and does not rewrite or revoke rights previously granted."
+  },
+  "baseline": {
+    "manifest": "provenance-baseline.json",
+    "manifest_sha256": "c0d29085f7cd27d1296dfe05f838eea2ef99b90878dd9ded7cd7340b38aa12ed",
+    "fingerprints": "provenance-fingerprints.json",
+    "fingerprints_sha256": "bfe0dfd3d1d75a439d19a8c668b2421fa426dc4221204343bb24db4bd38a9cb8",
+    "external_manifest": "D:/PROJECTS/.cognition/github-attribution-2026-11-04/repo12-rsna-knee-mri-submission-audit-baseline-20261106.json",
+    "external_fingerprints": "D:/PROJECTS/.cognition/github-attribution-2026-11-04/repo12-rsna-knee-mri-submission-audit-fingerprints-20261106.json"
+  },
+  "competition": {
+    "name": "2026 RSNA Knee Abnormality Detection AI Challenge",
+    "official_overview": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/overview",
+    "official_timeline": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/overview/timeline",
+    "official_rules": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/rules",
+    "host_announcement": "https://www.rsna.org/news/2026/august/ai-challenge-knee-mri",
+    "checked_on": "2026-11-06",
+    "final_submission_deadline": "2026-10-22 per Kaggle overview timeline and RSNA announcement",
+    "winners_requirements_deadline": "2026-11-05 per Kaggle overview; applies to winners",
+    "rules_page_access": "Anonymous browser returned no readable text; competition-specific terms were not independently verified.",
+    "repository_relation": "A static notebook-source reproducibility audit, described in the README as separate from a challenge submission, model, weights, and leaderboard result.",
+    "submission_or_eligibility_claim": false
+  },
+  "content": {
+    "baseline_file_count": 36,
+    "raster_asset_count": 23,
+    "patient_files_present": false,
+    "competition_data_present": false,
+    "submission_predictions_present": false,
+    "third_party_notebooks_present": false,
+    "model_weights_present": false,
+    "ai_generated_cover_art_documented": true,
+    "separate_cover_art_reuse_license_documented": false
+  },
+  "copyright_year": 2026
+}

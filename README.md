@@ -3,7 +3,7 @@
 ![Knee MRI notebook audit research cover.](docs/figures/cover.gif)
 
 
-**Project citation:** [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) · [CITATION.cff](CITATION.cff) · [Software metadata](codemeta.json).
+**Project citation:** [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) · Copyright © 2026 · Attribution recorded 2026-11-06 · [CITATION.cff](CITATION.cff) · [Software metadata](codemeta.json).
 
 
 ## Research purpose
@@ -78,4 +78,15 @@ The following primary sources inform proposed checks. Their text, code, figures,
 
 **Attribution and reuse.** Please credit [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) in academic and software reuse and do not present this work as your own. When distributing copies or substantial portions of the original MIT software, preserve the copyright and permission notice. Upstream material keeps its own terms. [License](LICENSE) · [Figure methods and provenance](docs/figures/README.md).
 
-<!-- research-provenance: project=rsna-knee-mri-submission-audit; date=2026-11-04; author=Francisco Angulo de Lafuente; orcid=https://orcid.org/0009-0001-1634-7063; original-software-license=MIT -->
+**Reuse notice for original MIT-licensed material.**
+
+This project contains open-source material under the MIT License. When
+redistributing copies or substantial portions, retain the copyright and
+permission notices. If you build on this work, please cite the project and
+credit Francisco Angulo de Lafuente (ORCID: 0009-0001-1634-7063).
+Help advance scientific knowledge: we welcome reproducible results,
+corrections, and contributions.
+
+Raster figures and cover artwork have separate rights; see [LICENSE_SCOPE.md](LICENSE_SCOPE.md).
+
+<!-- research-provenance: project=rsna-knee-mri-submission-audit; date=2026-11-04; recorded_on=2026-11-06; author=Francisco Angulo de Lafuente; orcid=https://orcid.org/0009-0001-1634-7063; canonical_url=https://github.com/Agnuxo1/rsna-knee-mri-submission-audit; license_scope=LICENSE_SCOPE.md; original-software-license=MIT -->

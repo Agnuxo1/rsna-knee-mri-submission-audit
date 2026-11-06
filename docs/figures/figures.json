@@ -1,4 +1,14 @@
 {
+  "provenance": {
+    "creator": "Francisco Angulo de Lafuente",
+    "orcid": "https://orcid.org/0009-0001-1634-7063",
+    "researchDate": "2026-11-04",
+    "attributionRecorded": "2026-11-06",
+    "licenseScope": "../../LICENSE_SCOPE.md",
+    "softwareLicense": "MIT for original software and project-authored text; see LICENSE_SCOPE.md",
+    "rasterReuseRights": "Not granted or verified by this metadata.",
+    "copyrightYear": 2026
+  },
   "title": "Knee MRI notebook audit",
   "subtitle": "Static checks for the RSNA submission contract",
   "figures": [

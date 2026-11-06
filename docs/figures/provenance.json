@@ -6,6 +6,11 @@
     "orcid": "https://orcid.org/0009-0001-1634-7063"
   },
   "figureRendererLicense": "MIT",
-  "projectLicense": "MIT",
-  "licenseFile": "LICENSE"
+  "projectLicense": "MIT for original software and project-authored text; see LICENSE_SCOPE.md",
+  "licenseFile": "LICENSE",
+  "recorded_on": "2026-11-06",
+  "canonical_url": "https://github.com/Agnuxo1/rsna-knee-mri-submission-audit",
+  "licenseScope": "../../LICENSE_SCOPE.md",
+  "rasterReuseRights": "Separate rights; not granted or established by this record.",
+  "copyright_year": 2026
 }

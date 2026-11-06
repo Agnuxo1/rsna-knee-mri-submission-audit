@@ -1,0 +1,96 @@
+{
+  "schema": "github-attribution-fingerprints/v1",
+  "repository": {
+    "full_name": "Agnuxo1/rsna-knee-mri-submission-audit",
+    "id": 1445319380,
+    "canonical_url": "https://github.com/Agnuxo1/rsna-knee-mri-submission-audit"
+  },
+  "captured_on": "2026-11-06",
+  "original_commit_sha": "24f2f7696106cb3ededa29353c8386e0262fe48f",
+  "baseline_commit_sha": "984674770a612f8a95b75b09d0cc2e16583b46e2",
+  "method": {
+    "file_hash": "SHA-256 over exact raw Git blob bytes; retrieved text was accepted only after its SHA-1 Git blob OID matched the GitHub tree API.",
+    "passage_hash": "SHA-256 of UTF-8 excerpts at recorded baseline line ranges.",
+    "normalization": "Unicode NFC; CRLF converted to LF; runs of spaces/tabs collapsed; each line trimmed; lines joined with LF.",
+    "exclusions": [
+      "MIT license boilerplate",
+      "external research sources not reproduced",
+      "third-party material",
+      "generated raster assets"
+    ],
+    "interpretation": "A match is a lead for manual review; it does not establish authorship, access, or infringement."
+  },
+  "selected_original_files": [
+    {
+      "path": "README.md",
+      "git_blob_oid": "698d25dce492c7ae32aae7f0fee3d63d233c3c19",
+      "size_bytes": 5278,
+      "sha256": "e6cc7881abfcedaf6ef31a7e2ab47ee33c635bf7393cdda4e7ed00bd9501e2f4",
+      "hash_method": "SHA-256 of exact raw bytes after verifying the Git blob SHA-1 against the GitHub tree API"
+    },
+    {
+      "path": "src/audit_submission_notebook.py",
+      "git_blob_oid": "8d356628a787de1dd29785af70b725628b500d55",
+      "size_bytes": 7433,
+      "sha256": "6699af8c78d1d5d7b027604870a04a2f821f4dfb3297d291faabc950797f5faf",
+      "hash_method": "SHA-256 of exact raw bytes after verifying the Git blob SHA-1 against the GitHub tree API"
+    },
+    {
+      "path": "tools/render_lab_figures.py",
+      "git_blob_oid": "2d69584bdca3c8c710d3c6ef4cd5cd10b98ea432",
+      "size_bytes": 10245,
+      "sha256": "a352cfb97876e85ff7107799eef6840973b2e4285fdeeabb20828a13674d2874",
+      "hash_method": "SHA-256 of exact raw bytes after verifying the Git blob SHA-1 against the GitHub tree API"
+    },
+    {
+      "path": "tools/render_science_figures.py",
+      "git_blob_oid": "598242ef09b13eabb149be4e02d1fb7bdb57fd09",
+      "size_bytes": 5078,
+      "sha256": "fe4458ba4b232bcb6260d2e927a343d2c51ddbf3e5970a6546cdfa46ff09adad",
+      "hash_method": "SHA-256 of exact raw bytes after verifying the Git blob SHA-1 against the GitHub tree API"
+    },
+    {
+      "path": "docs/figures/figures.json",
+      "git_blob_oid": "04934daf4dd1cc6dbb71f25e68ba614ddb914587",
+      "size_bytes": 6030,
+      "sha256": "60cc4768525434607f648eae6c5138de369ef88aa164c65069bda378ef920801",
+      "hash_method": "SHA-256 of exact raw bytes after verifying the Git blob SHA-1 against the GitHub tree API"
+    },
+    {
+      "path": "docs/science-figures/figure-spec.json",
+      "git_blob_oid": "f33a9a3e53412ccadeaaf39751662137fd75d7d0",
+      "size_bytes": 2192,
+      "sha256": "daa0c5c9c528d67c7f622cc4b041c3659a0fdcac062c6b10949e2dc08e7c9b2f",
+      "hash_method": "SHA-256 of exact raw bytes after verifying the Git blob SHA-1 against the GitHub tree API"
+    }
+  ],
+  "passage_fingerprints": [
+    {
+      "path": "README.md",
+      "line_start": 17,
+      "line_end": 17,
+      "baseline_git_blob_oid": "698d25dce492c7ae32aae7f0fee3d63d233c3c19",
+      "excerpt": "This repository packages an original static audit prepared during the [RSNA Knee Abnormality Detection challenge](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/overview). The audit screens notebook source for a reproducibility failure: reading cached example predictions instead of processing the hidden evaluation studies. It is a reproducibility companion, separate from the challenge submission, model, weights and leaderboard result.",
+      "raw_sha256": "761f8842eac25ce6f1eebfd80b8137e5804d0ca3c43cb97195d31070cfcb4fc3",
+      "normalized_sha256": "761f8842eac25ce6f1eebfd80b8137e5804d0ca3c43cb97195d31070cfcb4fc3"
+    },
+    {
+      "path": "src/audit_submission_notebook.py",
+      "line_start": 25,
+      "line_end": 40,
+      "baseline_git_blob_oid": "8d356628a787de1dd29785af70b725628b500d55",
+      "excerpt": "def _path_value(node: ast.AST, env: dict[str, str]) -> str | None:\n    if isinstance(node, ast.Constant) and isinstance(node.value, str):\n        return node.value.replace(\"\\\\\", \"/\")\n    if isinstance(node, ast.Name):\n        return env.get(node.id)\n    if isinstance(node, ast.Call):\n        name = node.func.id if isinstance(node.func, ast.Name) else (\n            node.func.attr if isinstance(node.func, ast.Attribute) else \"\"\n        )\n        if name in {\"Path\", \"PurePath\", \"PurePosixPath\"} and node.args:\n            return _path_value(node.args[0], env)\n    if isinstance(node, ast.BinOp) and isinstance(node.op, ast.Div):\n        left = _path_value(node.left, env)\n        right = _path_value(node.right, env)\n        if left is not None and right is not None:\n            return str(PurePosixPath(left) / right)",
+      "raw_sha256": "a7ff4efdc6a81f60ba1cc2d06a7f79ccad702546dad0b914846866d0d3d7d0c4",
+      "normalized_sha256": "449886b9b0e34ca4a9361b975c6b11f3cfdeef785d6dc697c0c4e23a2c1e511b"
+    },
+    {
+      "path": "src/audit_submission_notebook.py",
+      "line_start": 103,
+      "line_end": 123,
+      "baseline_git_blob_oid": "8d356628a787de1dd29785af70b725628b500d55",
+      "excerpt": "    has_csv_writer = any(\n        (call.func.attr if isinstance(call.func, ast.Attribute) else \"\") == \"to_csv\"\n        for call in calls\n    )\n    has_uid_reference = \"StudyInstanceUID\" in source\n    checks = {\n        \"no_precomputed_submission_csv_from_kaggle_input\": not static_paths,\n        \"reads_live_test_csv\": read_csv_calls_ending(\"test.csv\"),\n        \"reads_sample_submission\": read_csv_calls_ending(\"sample_submission.csv\"),\n        \"writes_csv\": has_csv_writer,\n        \"references_study_uid\": has_uid_reference,\n        \"all_code_cells_parse\": not parse_errors,\n    }\n    return {\n        \"status\": \"STATIC_SOURCE_PASS\" if all(checks.values()) else \"STATIC_SOURCE_REJECT\",\n        \"scope\": \"source-only; does not prove Kaggle hidden-run identity, runtime success, accuracy, or score\",\n        \"source_sha256\": source_sha256,\n        \"checks\": checks,\n        \"detected_static_input_submission_paths\": static_paths,\n        \"parse_errors\": parse_errors,\n    }",
+      "raw_sha256": "bc5ccd2cadf8d426960667ca058ff5fba7383848c148335f5f3de491aaa7e9ff",
+      "normalized_sha256": "fbe33560d8f211bf745e20d43a96e16eca352b4ba4935a3de32cc48a8595bbd2"
+    }
+  ]
+}

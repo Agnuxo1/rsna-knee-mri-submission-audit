@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: MIT
 # Research-Project: RSNA Knee MRI Submission Audit
 # Research-Date: 2026-11-04
+# Attribution-Recorded: 2026-11-06
 # Research-ORCID: https://orcid.org/0009-0001-1634-7063
 # Reuse: Keep the MIT copyright and permission notice; please cite the author.
 """Static release gate for Kaggle code-competition submission notebooks.

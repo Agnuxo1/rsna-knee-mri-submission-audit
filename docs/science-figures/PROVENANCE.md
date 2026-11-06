@@ -1,10 +1,10 @@
 # Scientific figures: Knee MRI notebook audit
 
-Documentation edition: 2026-11-04. Project author: [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063).
+Copyright © 2026. Documentation edition: 2026-11-04. Project author: [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063). Attribution recorded: 2026-11-06.
 
 New AI-generated editorial illustration; rasterised here for the banner. It depicts no observations. The animated method figures were drawn from the repository's published descriptions and are explanatory. A panel explicitly marked as reported evidence uses values transcribed in the README.
 
-The GIF comment field contains factual machine-readable project, author, date, and ORCID metadata. The original software, including the renderer, is covered by the repository's MIT license. Please preserve the notices and cite the original author.
+The GIF comment field contains factual machine-readable project, author, date, and ORCID metadata. The original software, including the renderer, is covered by the repository's MIT license. Please preserve the notices and cite the original author. This software license statement does not grant reuse rights to the cover art or raster files; see [LICENSE_SCOPE.md](../../LICENSE_SCOPE.md).
 
 Regenerate with Python 3.10+ and Pillow 10.4+:
 ~~~sh

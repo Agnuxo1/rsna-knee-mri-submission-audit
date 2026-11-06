@@ -4,6 +4,7 @@ SPDX-FileCopyrightText: 2026 Francisco Angulo de Lafuente
 SPDX-License-Identifier: MIT
 Research-Project: rsna-knee-mri-submission-audit
 Research-Date: 2026-11-04
+Attribution-Recorded: 2026-11-06
 Research-ORCID: https://orcid.org/0009-0001-1634-7063
 """
 import argparse

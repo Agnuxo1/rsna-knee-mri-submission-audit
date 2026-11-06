@@ -1,0 +1,232 @@
+{
+  "schema": "github-attribution-baseline/v1",
+  "repository": {
+    "full_name": "Agnuxo1/rsna-knee-mri-submission-audit",
+    "id": 1445319380,
+    "canonical_url": "https://github.com/Agnuxo1/rsna-knee-mri-submission-audit"
+  },
+  "captured_on": "2026-11-06",
+  "original_commit_sha": "24f2f7696106cb3ededa29353c8386e0262fe48f",
+  "baseline_commit_sha": "984674770a612f8a95b75b09d0cc2e16583b46e2",
+  "tree_sha": "12e62a75ce27986fd9df1ac56aac518203375387",
+  "git_object_format": "sha1",
+  "file_count": 36,
+  "files": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "git_blob_oid": "2863f64dd351144cfff76a217043cc4067ae6fe1",
+      "size_bytes": 71
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "git_blob_oid": "a4d7f6f88de3f9395b43ddd2c64f0a5f4ff09e5a",
+      "size_bytes": 358
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "git_blob_oid": "19f7271620c5596471bf2a783af06df44050cc24",
+      "size_bytes": 826
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "git_blob_oid": "698d25dce492c7ae32aae7f0fee3d63d233c3c19",
+      "size_bytes": 5278
+    },
+    {
+      "path": "codemeta.json",
+      "mode": "100644",
+      "git_blob_oid": "0c964d3b718391573af56644019426a9c12a97e5",
+      "size_bytes": 527
+    },
+    {
+      "path": "docs/figures/README.md",
+      "mode": "100644",
+      "git_blob_oid": "949b78b36b0fd9ee0d2f34dd494981ec2960c7a6",
+      "size_bytes": 700
+    },
+    {
+      "path": "docs/figures/cover.gif",
+      "mode": "100644",
+      "git_blob_oid": "bbf0d4b2482a0c05dd0af0a216a8276a303a19be",
+      "size_bytes": 150012
+    },
+    {
+      "path": "docs/figures/cover.jpg",
+      "mode": "100644",
+      "git_blob_oid": "158fc7dced27bbcd467a7409ccdab3604b8351bb",
+      "size_bytes": 91941
+    },
+    {
+      "path": "docs/figures/cover.png",
+      "mode": "100644",
+      "git_blob_oid": "69d754c167c45f5978f85672e3835d47b9ec388f",
+      "size_bytes": 329533
+    },
+    {
+      "path": "docs/figures/fig-01.gif",
+      "mode": "100644",
+      "git_blob_oid": "3b619c3d98a6912d83b47ffd81ffb3e8543d6418",
+      "size_bytes": 31561
+    },
+    {
+      "path": "docs/figures/fig-01.png",
+      "mode": "100644",
+      "git_blob_oid": "7968425d183beeff461cb87ceb16a5dab5fc469b",
+      "size_bytes": 33615
+    },
+    {
+      "path": "docs/figures/fig-02.gif",
+      "mode": "100644",
+      "git_blob_oid": "30bb65eff436e5f0f37ef1b95c7a38fd6a6b8ae4",
+      "size_bytes": 35750
+    },
+    {
+      "path": "docs/figures/fig-02.png",
+      "mode": "100644",
+      "git_blob_oid": "1ff54201ddb3908604f62c4613c49972b846d2e4",
+      "size_bytes": 39753
+    },
+    {
+      "path": "docs/figures/fig-03.gif",
+      "mode": "100644",
+      "git_blob_oid": "583599b87c221f421193e859c70ef1b30832b95c",
+      "size_bytes": 28508
+    },
+    {
+      "path": "docs/figures/fig-03.png",
+      "mode": "100644",
+      "git_blob_oid": "fa7a9c3988a3555c30be0450f49f849dc621f08e",
+      "size_bytes": 31845
+    },
+    {
+      "path": "docs/figures/fig-04.gif",
+      "mode": "100644",
+      "git_blob_oid": "e6755a7dc27829f94250da7f9a0a2aa6e525ce3a",
+      "size_bytes": 31837
+    },
+    {
+      "path": "docs/figures/fig-04.png",
+      "mode": "100644",
+      "git_blob_oid": "b5951b8d67f130be601d9aefe1982af46ed78778",
+      "size_bytes": 32949
+    },
+    {
+      "path": "docs/figures/fig-05.gif",
+      "mode": "100644",
+      "git_blob_oid": "bbc1e3ece560eb15bca557c2c32002298df73288",
+      "size_bytes": 26843
+    },
+    {
+      "path": "docs/figures/fig-05.png",
+      "mode": "100644",
+      "git_blob_oid": "f95e7f4b2fe11b5584ece2a9b769215e7e45606b",
+      "size_bytes": 29215
+    },
+    {
+      "path": "docs/figures/fig-06.gif",
+      "mode": "100644",
+      "git_blob_oid": "84d6ab3156e158ace2fb093c6893a5ce9afffc8e",
+      "size_bytes": 30068
+    },
+    {
+      "path": "docs/figures/fig-06.png",
+      "mode": "100644",
+      "git_blob_oid": "9d8f23e354885e2f5e78754579c8cf0c849acc2f",
+      "size_bytes": 32110
+    },
+    {
+      "path": "docs/figures/figures.json",
+      "mode": "100644",
+      "git_blob_oid": "04934daf4dd1cc6dbb71f25e68ba614ddb914587",
+      "size_bytes": 6030
+    },
+    {
+      "path": "docs/figures/provenance.json",
+      "mode": "100644",
+      "git_blob_oid": "560a30f466874a263410166063a56dbdf1be9d97",
+      "size_bytes": 280
+    },
+    {
+      "path": "docs/science-figures/01.gif",
+      "mode": "100644",
+      "git_blob_oid": "dde7bd65f2845a593d05c95c5f220b529ea85710",
+      "size_bytes": 47116
+    },
+    {
+      "path": "docs/science-figures/02.gif",
+      "mode": "100644",
+      "git_blob_oid": "d76957138458a72f0c174e81c4c76c77e134852e",
+      "size_bytes": 44268
+    },
+    {
+      "path": "docs/science-figures/03.gif",
+      "mode": "100644",
+      "git_blob_oid": "bfdf2a4edca315b6d16d925684a05591bb47c432",
+      "size_bytes": 39042
+    },
+    {
+      "path": "docs/science-figures/04.gif",
+      "mode": "100644",
+      "git_blob_oid": "5523f93fef53a2d7718e16eaa60808a5ad74c8a6",
+      "size_bytes": 47100
+    },
+    {
+      "path": "docs/science-figures/05.gif",
+      "mode": "100644",
+      "git_blob_oid": "6ae09f1ea24fdddfbcfbc7663076fe5bd396072d",
+      "size_bytes": 34661
+    },
+    {
+      "path": "docs/science-figures/06.gif",
+      "mode": "100644",
+      "git_blob_oid": "89e873ee88bc6e4147fdf76674d23e8da4c739aa",
+      "size_bytes": 40472
+    },
+    {
+      "path": "docs/science-figures/PROVENANCE.md",
+      "mode": "100644",
+      "git_blob_oid": "f4218a668f3dcb11754bed8f365e04fd8610fa1f",
+      "size_bytes": 1018
+    },
+    {
+      "path": "docs/science-figures/cover-art.jpg",
+      "mode": "100644",
+      "git_blob_oid": "7f48cc749c2db2b9d49986868cd841c93bd63b81",
+      "size_bytes": 98930
+    },
+    {
+      "path": "docs/science-figures/figure-spec.json",
+      "mode": "100644",
+      "git_blob_oid": "f33a9a3e53412ccadeaaf39751662137fd75d7d0",
+      "size_bytes": 2192
+    },
+    {
+      "path": "docs/science-figures/header.gif",
+      "mode": "100644",
+      "git_blob_oid": "d791f44582326fb1ec923dbefdf16feae357e5fb",
+      "size_bytes": 126048
+    },
+    {
+      "path": "src/audit_submission_notebook.py",
+      "mode": "100644",
+      "git_blob_oid": "8d356628a787de1dd29785af70b725628b500d55",
+      "size_bytes": 7433
+    },
+    {
+      "path": "tools/render_lab_figures.py",
+      "mode": "100644",
+      "git_blob_oid": "2d69584bdca3c8c710d3c6ef4cd5cd10b98ea432",
+      "size_bytes": 10245
+    },
+    {
+      "path": "tools/render_science_figures.py",
+      "mode": "100644",
+      "git_blob_oid": "598242ef09b13eabb149be4e02d1fb7bdb57fd09",
+      "size_bytes": 5078
+    }
+  ]
+}

@@ -1,3 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Francisco Angulo de Lafuente
+# SPDX-License-Identifier: MIT
+# Project: Knee MRI notebook audit
+# Author-ORCID: https://orcid.org/0009-0001-1634-7063
+# Attribution-Recorded: 2026-11-06
+# Asset and license scope: see LICENSE_SCOPE.md
+
 __pycache__/
 .venv/
 .pytest_cache/
