@@ -6,6 +6,10 @@
 **Project citation:** [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) · Copyright © 2026 · Attribution recorded 2026-11-06 · [CITATION.cff](CITATION.cff) · [Software metadata](codemeta.json).
 
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> The standard-library audit screens notebook source for cached-prediction mistakes before an expensive inference run or submission. It reads code as data, checks the expected input and output references, and records a notebook hash without executing the notebook. This provides a lightweight reproducibility check that can reduce avoidable reruns; runtime correctness still needs execution. See <a href="#what-is-checked">what is checked</a>.</sub>
+<!-- impact-note:end -->
+
 ## Research purpose
 
 ![Reject cached example predictions. Notebook source: Read as JSON; AST parsing: Inspect literals and calls; Static input check: Flag cached submission.csv; Release signal: Report each check](docs/figures/fig-01.gif)
